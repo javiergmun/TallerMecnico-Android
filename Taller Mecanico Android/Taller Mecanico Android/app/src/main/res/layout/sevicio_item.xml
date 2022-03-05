@@ -1,8 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="125dp">
+    app:cardBackgroundColor="@color/Blanco_fondo"
+    app:cardElevation="15dp"
+    android:layout_height="150dp"
+    android:layout_margin="1dp"
+    app:cardCornerRadius="30dp"
+    >
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:layout_marginStart="10dp">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageView"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/motor"
+            app:civ_border_color="#8B1C1F"
+            app:civ_border_width="3dp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.5" />
+
+
+        <TextView
+            android:id="@+id/nombreServicio"
+            android:layout_width="221dp"
+            android:layout_height="37dp"
+            android:ems="10"
+            android:fontFamily="@font/poppins"
+            android:inputType="textPersonName"
+            android:text="Cambio aceite"
+            android:textColor="#8B1C1F"
+            android:textSize="18dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.3" />
+
+
+        <EditText
+            android:id="@+id/descripcionServicio"
+            android:layout_width="225dp"
+            android:layout_height="58dp"
+            android:fontFamily="@font/poppinslight"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:text="Tenemos varias marcas de aceite para coche en stock en todos nuestros talleres mecánicos todos ellos con una garantía de 2 años."
+            android:textColor="#424242"
+            android:textSize="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toBottomOf="@+id/nombreServicio"
+            app:layout_constraintVertical_bias="0.32999998" />
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

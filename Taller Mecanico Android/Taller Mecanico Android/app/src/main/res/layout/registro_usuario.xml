@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Blanco_fondo"
+    android:padding="30dp"
+    >
+
+
+    <TextView
+        android:id="@+id/tvIntroEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="26dp"
+        android:fontFamily="@font/poppinslight"
+        android:text="INTRODUZCA SU EMAIL"
+        android:textColor="@color/Gris"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="312dp"
+        android:layout_height="48dp"
+        android:background="@drawable/et_style"
+        android:backgroundTint="@color/white"
+        android:textAlignment="center"
+        android:textColor="@color/Blanco_fondo"
+        android:textSize="25dp"
+        app:flow_verticalAlign="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvIntroEmail"
+        app:layout_constraintVertical_bias="0.01999998"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+    <TextView
+        android:id="@+id/tvIntroNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppinslight"
+        android:text="INTRODUZCA SU NOMBRE"
+        android:textColor="@color/Gris"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/email"
+        app:layout_constraintVertical_bias="0.050000012" />
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="312dp"
+        android:layout_height="48dp"
+        android:background="@drawable/et_style"
+        android:backgroundTint="@color/white"
+        android:textAlignment="center"
+        android:textColor="@color/Blanco_fondo"
+        android:textSize="25dp"
+        app:flow_verticalAlign="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvIntroNombre"
+        app:layout_constraintVertical_bias="0.01999998"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+
+    <TextView
+        android:id="@+id/tvIntroContraseña"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppinslight"
+        android:text="INTRODUZCA SU CONTRASEÑA"
+        android:textColor="@color/Gris"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nombre"
+        app:layout_constraintVertical_bias="0.050000012" />
+
+    <EditText
+        android:id="@+id/contraseña"
+        android:layout_width="312dp"
+        android:layout_height="48dp"
+        android:background="@drawable/et_style"
+        android:backgroundTint="@color/white"
+        android:textAlignment="center"
+        android:textColor="@color/Blanco_fondo"
+        android:textSize="25dp"
+        app:flow_verticalAlign="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvIntroContraseña"
+        app:layout_constraintVertical_bias="0.01999998"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/tvIntroMovil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppinslight"
+        android:text="INTRODUZCA SU MOVIL"
+        android:textColor="@color/Gris"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/contraseña"
+        app:layout_constraintVertical_bias="0.050000012" />
+
+    <EditText
+        android:id="@+id/movil"
+        android:layout_width="312dp"
+        android:layout_height="48dp"
+        android:background="@drawable/et_style"
+        android:backgroundTint="@color/white"
+        android:textAlignment="center"
+        android:textColor="@color/Blanco_fondo"
+        android:textSize="25dp"
+        app:flow_verticalAlign="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvIntroMovil"
+        app:layout_constraintVertical_bias="0.01999998"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/tvIntroDireccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppinslight"
+        android:text="INTRODUZCA SU DIRECCION"
+        android:textColor="@color/Gris"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/movil"
+        app:layout_constraintVertical_bias="0.050000012" />
+
+    <EditText
+        android:id="@+id/direccion"
+        android:layout_width="312dp"
+        android:layout_height="48dp"
+        android:background="@drawable/et_style"
+        android:backgroundTint="@color/white"
+        android:textAlignment="center"
+        android:textColor="@color/Blanco_fondo"
+        android:textSize="25dp"
+        app:flow_verticalAlign="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvIntroDireccion"
+        app:layout_constraintVertical_bias="0.01999998"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/entrar"
+        android:layout_width="175dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button_selector"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:hint="ENTRAR"
+        android:textAlignment="center"
+        android:textColor="@color/Gris"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/direccion"
+        app:layout_constraintVertical_bias="0.31" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

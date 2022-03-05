@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_mobile"
+    app:startDestination="@id/action_titulo">
+
+    <fragment
+        android:id="@+id/action_titulo"
+        android:name="edu.programacion.fotomapadrawer.TituloFragment"
+        android:label="Titulos"
+        tools:layout="@layout/fragment_titulo" />
+
+    <fragment
+        android:id="@+id/action_etiqueta"
+        android:name="edu.programacion.fotomapadrawer.EtiquetaFragment"
+
+        android:label="Etiqueta"
+        tools:layout="@layout/fragment_etiqueta" />
+
+    <fragment
+        android:id="@+id/action_capturar"
+        android:name="edu.programacion.fotomapadrawer.CaptureFragment"
+        android:label="Capturar"
+        tools:layout="@layout/fragment_capture" />
+
+    <fragment
+        android:id="@+id/viewFragment"
+        android:name="edu.programacion.fotomapadrawer.ViewFragment"
+        android:label="ViewFragment"
+        tools:layout="@layout/fragment_view"/>
+</navigation>
