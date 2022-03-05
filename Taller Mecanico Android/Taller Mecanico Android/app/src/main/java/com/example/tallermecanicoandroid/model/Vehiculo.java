@@ -7,8 +7,8 @@ public class Vehiculo {
     private String modelo;
     private String matricula;
     private String color;
-    private String imagen;
-    private String bitmap;
+    private String imagen; //Imagen
+    private String bitmap;  //Imagen
 
     public long getId() {
         return id;
