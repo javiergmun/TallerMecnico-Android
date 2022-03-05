@@ -3,67 +3,34 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="650dp"
+    android:background="@color/Blanco_fondo">
 
-    <ImageView
-        android:id="@+id/star5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="15dp"
-        app:layout_constraintStart_toEndOf="@+id/star4"
-        app:layout_constraintTop_toBottomOf="@+id/lblNombreServicio"
-        app:srcCompat="@android:drawable/btn_star" />
-
-    <ImageView
-        android:id="@+id/star4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="15dp"
-        app:layout_constraintStart_toEndOf="@+id/star3"
-        app:layout_constraintTop_toBottomOf="@+id/lblNombreServicio"
-        app:srcCompat="@android:drawable/btn_star" />
-
-    <ImageView
-        android:id="@+id/star3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="15dp"
-        app:layout_constraintStart_toEndOf="@+id/star2"
-        app:layout_constraintTop_toBottomOf="@+id/lblNombreServicio"
-        app:srcCompat="@android:drawable/btn_star" />
-
-    <ImageView
-        android:id="@+id/star2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="15dp"
-        app:layout_constraintStart_toEndOf="@+id/star1"
-        app:layout_constraintTop_toBottomOf="@+id/lblNombreServicio"
-        app:srcCompat="@android:drawable/btn_star" />
 
     <ImageView
         android:id="@+id/imageServicio"
-        android:layout_width="414dp"
-        android:layout_height="263dp"
+        android:layout_width="680dp"
+        android:layout_height="287dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/avatars" />
+        tools:srcCompat="@drawable/motor" />
 
     <TextView
         android:id="@+id/lblNombreServicio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="65dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginEnd="184dp"
+        android:fontFamily="@font/poppins"
         android:text="Cambio de aceite"
+        android:textColor="@color/rojoOscuro"
         android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageServicio" />
+        app:layout_constraintTop_toBottomOf="@+id/imageServicio"
+        app:layout_constraintVertical_bias="0.06999999" />
 
     <ImageView
         android:id="@+id/star1"
@@ -73,7 +40,65 @@
         android:layout_marginTop="15dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lblNombreServicio"
-        app:srcCompat="@android:drawable/btn_star" />
+        app:srcCompat="@android:drawable/btn_star"
+        android:tint="@color/rojoOscuro"
+        tools:ignore="UseAppTint" />
+
+    <ImageView
+        android:id="@+id/star2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toEndOf="@+id/star1"
+        app:layout_constraintTop_toBottomOf="@+id/lblNombreServicio"
+        app:srcCompat="@android:drawable/btn_star"
+        android:tint="@color/rojoOscuro"
+        tools:ignore="UseAppTint"/>
+
+
+
+    <ImageView
+        android:id="@+id/star3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toEndOf="@+id/star2"
+        app:layout_constraintTop_toBottomOf="@+id/lblNombreServicio"
+        app:srcCompat="@android:drawable/btn_star"
+        android:tint="@color/rojoOscuro"
+        tools:ignore="UseAppTint"/>
+
+
+    <ImageView
+        android:id="@+id/star4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toEndOf="@+id/star3"
+        app:layout_constraintTop_toBottomOf="@+id/lblNombreServicio"
+        app:srcCompat="@android:drawable/btn_star"
+        android:tint="@color/rojoOscuro"
+        tools:ignore="UseAppTint"/>
+
+
+
+
+    <ImageView
+        android:id="@+id/star5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toEndOf="@+id/star4"
+        app:layout_constraintTop_toBottomOf="@+id/lblNombreServicio"
+        app:srcCompat="@android:drawable/btn_star"
+       />
+
+
+
 
     <TextView
         android:id="@+id/lblPrecio"
@@ -82,32 +107,37 @@
         android:layout_marginStart="65dp"
         android:layout_marginTop="15dp"
         android:text="20,51€"
-        android:textSize="16sp"
+        android:textSize="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/star2" />
 
-    <TextView
-        android:id="@+id/lblDescripcion"
-        android:layout_width="300dp"
-        android:layout_height="80dp"
-        android:layout_marginStart="65dp"
-        android:layout_marginTop="42dp"
-        android:text="TextView"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lblPrecio" />
 
-    <ImageView
-        android:id="@+id/imageCalendario"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="141dp"
-        android:layout_marginTop="23dp"
-        android:layout_marginEnd="142dp"
-        android:layout_marginBottom="35dp"
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/rojoOscuro"
+        android:backgroundTint="@color/rojoOscuro"
+        app:layout_constraintBottom_toTopOf="@+id/tvDescripcionServicio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblPrecio"
+        app:layout_constraintVertical_bias="0.65" />
+
+    <TextView
+        android:id="@+id/tvDescripcionServicio"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginEnd="102dp"
+        android:text="Tenemos varias marcas de aceite para coche en stock en todos nuestros talleres mecánicos todos ellos con una garantía de 2 años."
+        android:textSize="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lblDescripcion"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:layout_constraintTop_toBottomOf="@+id/lblPrecio"
+        app:layout_constraintVertical_bias="0.51" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

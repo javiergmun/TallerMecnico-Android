@@ -12,7 +12,9 @@
         <entry key="..\:/Users/neago/AndroidStudioProjects/TallerMecnico-Android/Taller Mecanico Android/Taller Mecanico Android/app/src/main/res/layout/content_main_fragment.xml" value="0.16983695652173914" />
         <entry key="..\:/Users/neago/AndroidStudioProjects/TallerMecnico-Android/Taller Mecanico Android/Taller Mecanico Android/app/src/main/res/layout/dialogo_mostrar_cancion.xml" value="0.24547101449275363" />
         <entry key="..\:/Users/neago/AndroidStudioProjects/TallerMecnico-Android/Taller Mecanico Android/Taller Mecanico Android/app/src/main/res/layout/dialogo_nueva_cancion.xml" value="0.16983695652173914" />
+        <entry key="..\:/Users/neago/AndroidStudioProjects/TallerMecnico-Android/Taller Mecanico Android/Taller Mecanico Android/app/src/main/res/layout/fragment_calendario.xml" value="0.16983695652173914" />
         <entry key="..\:/Users/neago/AndroidStudioProjects/TallerMecnico-Android/Taller Mecanico Android/Taller Mecanico Android/app/src/main/res/layout/fragment_home.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/neago/AndroidStudioProjects/TallerMecnico-Android/Taller Mecanico Android/Taller Mecanico Android/app/src/main/res/layout/fragment_servicio.xml" value="0.16983695652173914" />
         <entry key="..\:/Users/neago/AndroidStudioProjects/TallerMecnico-Android/Taller Mecanico Android/Taller Mecanico Android/app/src/main/res/layout/hora_item.xml" value="0.4" />
         <entry key="..\:/Users/neago/AndroidStudioProjects/TallerMecnico-Android/Taller Mecanico Android/Taller Mecanico Android/app/src/main/res/layout/item_cancion.xml" value="0.2" />
         <entry key="..\:/Users/neago/AndroidStudioProjects/TallerMecnico-Android/Taller Mecanico Android/Taller Mecanico Android/app/src/main/res/layout/item_categoria.xml" value="0.24547101449275363" />
@@ -22,7 +24,10 @@
         <entry key="..\:/Users/neago/AndroidStudioProjects/TallerMecnico-Android/Taller Mecanico Android/Taller Mecanico Android/app/src/main/res/layout/registro_base.xml" value="0.16983695652173914" />
         <entry key="..\:/Users/neago/AndroidStudioProjects/TallerMecnico-Android/Taller Mecanico Android/Taller Mecanico Android/app/src/main/res/layout/registro_foto.xml" value="0.264" />
         <entry key="..\:/Users/neago/AndroidStudioProjects/TallerMecnico-Android/Taller Mecanico Android/Taller Mecanico Android/app/src/main/res/layout/registro_usuario.xml" value="0.264" />
-        <entry key="..\:/Users/neago/AndroidStudioProjects/TallerMecnico-Android/Taller Mecanico Android/Taller Mecanico Android/app/src/main/res/layout/sevicio_item.xml" value="0.4" />
+        <entry key="..\:/Users/neago/AndroidStudioProjects/TallerMecnico-Android/Taller Mecanico Android/Taller Mecanico Android/app/src/main/res/layout/servicio_detalle.xml" value="0.176" />
+        <entry key="..\:/Users/neago/AndroidStudioProjects/TallerMecnico-Android/Taller Mecanico Android/Taller Mecanico Android/app/src/main/res/layout/servicio_detalle_calendario.xml" value="0.16983695652173914" />
+        <entry key="..\:/Users/neago/AndroidStudioProjects/TallerMecnico-Android/Taller Mecanico Android/Taller Mecanico Android/app/src/main/res/layout/sevicio_item.xml" value="0.2" />
+        <entry key="..\:/Users/neago/AppData/Local/Android/Sdk/platforms/android-32/data/res/drawable/btn_star.xml" value="0.1685" />
       </map>
     </option>
   </component>

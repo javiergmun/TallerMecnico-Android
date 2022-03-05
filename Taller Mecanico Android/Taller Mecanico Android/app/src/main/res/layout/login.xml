@@ -49,6 +49,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.505"
+        android:gravity="center"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/bienvenido"
         app:layout_constraintVertical_bias="0.07999998" />
@@ -60,6 +61,7 @@
         android:background="@drawable/et_style"
         android:backgroundTint="@color/Rojo"
         android:hint="Contraseña"
+        android:gravity="center"
         android:textAlignment="center"
         android:textColor="@color/Blanco_fondo"
         android:textSize="25dp"
