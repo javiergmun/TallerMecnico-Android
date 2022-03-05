@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/neago/AndroidStudioProjects/TallerMecnico-Android/Taller Mecanico Android/Taller Mecanico Android/app/src/main/res/drawable-v24/ic_add_24.xml" value="0.1695" />
+        <entry key="..\:/Users/neago/AndroidStudioProjects/TallerMecnico-Android/Taller Mecanico Android/Taller Mecanico Android/app/src/main/res/drawable/et_style.xml" value="0.1695" />
+        <entry key="..\:/Users/neago/AndroidStudioProjects/TallerMecnico-Android/Taller Mecanico Android/Taller Mecanico Android/app/src/main/res/layout/calendario_detalle.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/neago/AndroidStudioProjects/TallerMecnico-Android/Taller Mecanico Android/Taller Mecanico Android/app/src/main/res/layout/dialogo_mostrar_cancion.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/neago/AndroidStudioProjects/TallerMecnico-Android/Taller Mecanico Android/Taller Mecanico Android/app/src/main/res/layout/fragment_home.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/neago/AndroidStudioProjects/TallerMecnico-Android/Taller Mecanico Android/Taller Mecanico Android/app/src/main/res/layout/hora_item.xml" value="0.4" />
+        <entry key="..\:/Users/neago/AndroidStudioProjects/TallerMecnico-Android/Taller Mecanico Android/Taller Mecanico Android/app/src/main/res/layout/item_cancion.xml" value="0.2" />
+        <entry key="..\:/Users/neago/AndroidStudioProjects/TallerMecnico-Android/Taller Mecanico Android/Taller Mecanico Android/app/src/main/res/layout/item_categoria.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/neago/AndroidStudioProjects/TallerMecnico-Android/Taller Mecanico Android/Taller Mecanico Android/app/src/main/res/layout/item_receta.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/neago/AndroidStudioProjects/TallerMecnico-Android/Taller Mecanico Android/Taller Mecanico Android/app/src/main/res/layout/login.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/neago/AndroidStudioProjects/TallerMecnico-Android/Taller Mecanico Android/Taller Mecanico Android/app/src/main/res/layout/mostrar_servicio.xml" value="0.16983695652173914" />
+        <entry key="..\:/Users/neago/AndroidStudioProjects/TallerMecnico-Android/Taller Mecanico Android/Taller Mecanico Android/app/src/main/res/layout/sevicio_item.xml" value="0.17708333333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
