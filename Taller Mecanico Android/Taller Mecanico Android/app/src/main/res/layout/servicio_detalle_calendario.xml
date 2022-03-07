@@ -10,7 +10,7 @@
     <include
         android:id="@+id/fragment_servi"
         layout="@layout/fragment_servicio_detalle"
-        android:layout_width="391dp"
+        android:layout_width="wrap_content"
         android:layout_height="584dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,7 +21,7 @@
     <include
         android:id="@+id/fragment_calen"
         layout="@layout/fragment_calendario"
-        android:layout_width="395dp"
+        android:layout_width="wrap_content"
         android:layout_height="222dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
