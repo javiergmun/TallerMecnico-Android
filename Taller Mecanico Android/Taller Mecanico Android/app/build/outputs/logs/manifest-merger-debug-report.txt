@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:2:1-28:12
+ADDED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:2:1-30:12
 MERGED from [androidx.navigation:navigation-fragment:2.4.0] C:\Users\neago\.gradle\caches\transforms-3\c1daa4855049d8f11652340025b573df\transformed\navigation-fragment-2.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment-ktx:1.4.0] C:\Users\neago\.gradle\caches\transforms-3\b71b52cdbff66e67b0d1d6c0e9629b05\transformed\jetified-fragment-ktx-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui:2.4.0] C:\Users\neago\.gradle\caches\transforms-3\cfef27dda0d7aaa325049fb2ae689682\transformed\navigation-ui-2.4.0\AndroidManifest.xml:17:1-24:12
@@ -69,25 +69,25 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.print:print:1.0.0] C:\Users\neago\.gradle\caches\transforms-3\998ecad2e598076d0444e5b886cc28b2\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\neago\.gradle\caches\transforms-3\511e2a36f18b29fdf3f425e3962668f8\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\neago\.gradle\caches\transforms-3\abd986d958258d7e8503cbe4ed7e75cb\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:2:1-30:12
 	package
 		ADDED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:3:5-48
 		INJECTED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:2:1-28:12
+		ADDED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:2:1-30:12
 		INJECTED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:2:1-28:12
+		ADDED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:2:1-30:12
 		INJECTED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:5:5-24:19
+ADDED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:5:5-26:19
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\neago\.gradle\caches\transforms-3\e28af2a57da205d1991628495b66e5fc\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\neago\.gradle\caches\transforms-3\e28af2a57da205d1991628495b66e5fc\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\neago\.gradle\caches\transforms-3\a33d520c58fa7860ced27355a344e679\transformed\constraintlayout-2.1.3\AndroidManifest.xml:9:5-20
@@ -129,29 +129,29 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ne
 	android:usesCleartextTraffic
 		ADDED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:7:9-44
 activity#com.example.tallermecanicoandroid.MainActivity
-ADDED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:13:9-23:20
+ADDED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:15:9-25:20
 	android:label
-		ADDED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:16:13-45
+		ADDED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:18:13-45
 	android:exported
-		ADDED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:15:13-36
+		ADDED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:17:13-36
 	android:theme
-		ADDED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:17:13-70
+		ADDED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:19:13-70
 	android:name
-		ADDED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:14:13-41
+		ADDED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:16:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:18:13-22:29
+ADDED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:19:17-69
+ADDED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:21:17-77
+ADDED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:21:27-74
+		ADDED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:23:27-74
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:26:5-66
+ADDED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:28:5-66
 	android:name
-		ADDED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:26:22-64
+		ADDED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:28:22-64
 uses-sdk
 INJECTED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml

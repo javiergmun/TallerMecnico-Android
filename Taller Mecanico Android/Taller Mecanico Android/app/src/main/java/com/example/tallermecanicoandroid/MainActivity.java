@@ -8,19 +8,16 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 
-import com.example.tallermecanicoandroid.adapter.RecyclerViewAdapterServicio;
 import com.example.tallermecanicoandroid.model.Servicio;
 import com.google.android.material.navigation.NavigationView;
 
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements ActivityCommunications {
 
     private AppBarConfiguration mAppBarConfiguration;
-    // private ActivityMainBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,4 +56,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    @Override
+    public void onServiciolistItemSelected(Servicio servicio) {
+        Bundle args = new Bundle();
+        args.putString("SERVICIO", servicio.getTipo());
+
+        //navegamos al fragmento indicado con los datos del args
+        Navigation.findNavController(this, R.id.nav_host_fragment_content_main)
+                .navigate(R.id.action_servicio_detalle_calendario, args);
+    }
 }

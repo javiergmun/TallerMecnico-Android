@@ -2808,9 +2808,7 @@ id fixed
 id flip
 id floating
 id forever
-id fragment_calen
 id fragment_container_view_tag
-id fragment_servi
 id frost
 id galeria
 id ghost_view
@@ -3265,7 +3263,6 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout dialogo_confirma_cita
-layout fragment_calendario
 layout fragment_citas
 layout fragment_coches
 layout fragment_servicio_detalle
@@ -3339,7 +3336,6 @@ layout registro_usuario
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
-layout servicio_detalle_calendario
 layout servicio_item
 layout support_simple_spinner_dropdown_item
 layout test_action_chip

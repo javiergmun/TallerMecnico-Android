@@ -32,12 +32,12 @@
         "source": "C:\\Users\\neago\\AndroidStudioProjects\\TallerMecnico-Android\\Taller Mecanico Android\\Taller Mecanico Android\\app\\src\\main\\res\\layout\\nav_header_main.xml"
     },
     {
-        "merged": "C:\\Users\\neago\\AndroidStudioProjects\\TallerMecnico-Android\\Taller Mecanico Android\\Taller Mecanico Android\\app\\build\\intermediates\\merged_res\\debug\\layout_registro_foto.xml.flat",
-        "source": "C:\\Users\\neago\\AndroidStudioProjects\\TallerMecnico-Android\\Taller Mecanico Android\\Taller Mecanico Android\\app\\src\\main\\res\\layout\\registro_foto.xml"
-    },
-    {
         "merged": "C:\\Users\\neago\\AndroidStudioProjects\\TallerMecnico-Android\\Taller Mecanico Android\\Taller Mecanico Android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\neago\\AndroidStudioProjects\\TallerMecnico-Android\\Taller Mecanico Android\\Taller Mecanico Android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\neago\\AndroidStudioProjects\\TallerMecnico-Android\\Taller Mecanico Android\\Taller Mecanico Android\\app\\build\\intermediates\\merged_res\\debug\\layout_registro_foto.xml.flat",
+        "source": "C:\\Users\\neago\\AndroidStudioProjects\\TallerMecnico-Android\\Taller Mecanico Android\\Taller Mecanico Android\\app\\src\\main\\res\\layout\\registro_foto.xml"
     },
     {
         "merged": "C:\\Users\\neago\\AndroidStudioProjects\\TallerMecnico-Android\\Taller Mecanico Android\\Taller Mecanico Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_papelera.png.flat",
@@ -56,12 +56,12 @@
         "source": "C:\\Users\\neago\\AndroidStudioProjects\\TallerMecnico-Android\\Taller Mecanico Android\\Taller Mecanico Android\\app\\src\\main\\res\\drawable-v24\\camera.png"
     },
     {
-        "merged": "C:\\Users\\neago\\AndroidStudioProjects\\TallerMecnico-Android\\Taller Mecanico Android\\Taller Mecanico Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_flecha.png.flat",
-        "source": "C:\\Users\\neago\\AndroidStudioProjects\\TallerMecnico-Android\\Taller Mecanico Android\\Taller Mecanico Android\\app\\src\\main\\res\\drawable-v24\\flecha.png"
-    },
-    {
         "merged": "C:\\Users\\neago\\AndroidStudioProjects\\TallerMecnico-Android\\Taller Mecanico Android\\Taller Mecanico Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ruedas.jpg.flat",
         "source": "C:\\Users\\neago\\AndroidStudioProjects\\TallerMecnico-Android\\Taller Mecanico Android\\Taller Mecanico Android\\app\\src\\main\\res\\drawable-v24\\ruedas.jpg"
+    },
+    {
+        "merged": "C:\\Users\\neago\\AndroidStudioProjects\\TallerMecnico-Android\\Taller Mecanico Android\\Taller Mecanico Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_flecha.png.flat",
+        "source": "C:\\Users\\neago\\AndroidStudioProjects\\TallerMecnico-Android\\Taller Mecanico Android\\Taller Mecanico Android\\app\\src\\main\\res\\drawable-v24\\flecha.png"
     },
     {
         "merged": "C:\\Users\\neago\\AndroidStudioProjects\\TallerMecnico-Android\\Taller Mecanico Android\\Taller Mecanico Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_lunas.jpg.flat",
@@ -148,10 +148,6 @@
         "source": "C:\\Users\\neago\\AndroidStudioProjects\\TallerMecnico-Android\\Taller Mecanico Android\\Taller Mecanico Android\\app\\src\\main\\res\\layout\\servicio_item.xml"
     },
     {
-        "merged": "C:\\Users\\neago\\AndroidStudioProjects\\TallerMecnico-Android\\Taller Mecanico Android\\Taller Mecanico Android\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_calendario.xml.flat",
-        "source": "C:\\Users\\neago\\AndroidStudioProjects\\TallerMecnico-Android\\Taller Mecanico Android\\Taller Mecanico Android\\app\\src\\main\\res\\layout\\fragment_calendario.xml"
-    },
-    {
         "merged": "C:\\Users\\neago\\AndroidStudioProjects\\TallerMecnico-Android\\Taller Mecanico Android\\Taller Mecanico Android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\neago\\AndroidStudioProjects\\TallerMecnico-Android\\Taller Mecanico Android\\Taller Mecanico Android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
@@ -190,10 +186,6 @@
     {
         "merged": "C:\\Users\\neago\\AndroidStudioProjects\\TallerMecnico-Android\\Taller Mecanico Android\\Taller Mecanico Android\\app\\build\\intermediates\\merged_res\\debug\\layout_app_bar_main.xml.flat",
         "source": "C:\\Users\\neago\\AndroidStudioProjects\\TallerMecnico-Android\\Taller Mecanico Android\\Taller Mecanico Android\\app\\src\\main\\res\\layout\\app_bar_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\neago\\AndroidStudioProjects\\TallerMecnico-Android\\Taller Mecanico Android\\Taller Mecanico Android\\app\\build\\intermediates\\merged_res\\debug\\layout_servicio_detalle_calendario.xml.flat",
-        "source": "C:\\Users\\neago\\AndroidStudioProjects\\TallerMecnico-Android\\Taller Mecanico Android\\Taller Mecanico Android\\app\\src\\main\\res\\layout\\servicio_detalle_calendario.xml"
     },
     {
         "merged": "C:\\Users\\neago\\AndroidStudioProjects\\TallerMecnico-Android\\Taller Mecanico Android\\Taller Mecanico Android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",

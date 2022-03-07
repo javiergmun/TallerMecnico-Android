@@ -2,6 +2,8 @@ com/example/tallermecanicoandroid/api/VehiculoService.java
  com.example.tallermecanicoandroid.api.VehiculoService
 com/example/tallermecanicoandroid/Fragment_cita.java
  com.example.tallermecanicoandroid.Fragment_cita
+com/example/tallermecanicoandroid/UriConverters.java
+ com.example.tallermecanicoandroid.UriConverters
 com/example/tallermecanicoandroid/model/Direccion.java
  com.example.tallermecanicoandroid.model.Direccion
 com/example/tallermecanicoandroid/model/Vehiculo.java
@@ -20,12 +22,13 @@ com/example/tallermecanicoandroid/adapter/DatoOnClickListener.java
  com.example.tallermecanicoandroid.adapter.DatoOnClickListener
 com/example/tallermecanicoandroid/adapter/RecyclerViewAdapterVehiculo.java
  com.example.tallermecanicoandroid.adapter.RecyclerViewAdapterVehiculo
-com/example/tallermecanicoandroid/CalendarActivity.java
- com.example.tallermecanicoandroid.CalendarActivity
+com/example/tallermecanicoandroid/Fragment_servicio_detalle.java
+ com.example.tallermecanicoandroid.Fragment_servicio_detalle
+ com.example.tallermecanicoandroid.Fragment_servicio_detalle$1
 com/example/tallermecanicoandroid/model/Servicio.java
  com.example.tallermecanicoandroid.model.Servicio
-com/example/tallermecanicoandroid/api/ApiCliente.java
- com.example.tallermecanicoandroid.api.ApiCliente
+com/example/tallermecanicoandroid/Interfaz.java
+ com.example.tallermecanicoandroid.Interfaz
 com/example/tallermecanicoandroid/model/Login.java
  com.example.tallermecanicoandroid.model.Login
 com/example/tallermecanicoandroid/api/MecanicoService.java
@@ -42,18 +45,16 @@ com/example/tallermecanicoandroid/adapter/RecyclerViewAdapterCita.java
  com.example.tallermecanicoandroid.adapter.RecyclerViewAdapterCita
 com/example/tallermecanicoandroid/model/Cita.java
  com.example.tallermecanicoandroid.model.Cita
-com/example/tallermecanicoandroid/api/ServicioService.java
- com.example.tallermecanicoandroid.api.ServicioService
 com/example/tallermecanicoandroid/api/DireccionService.java
  com.example.tallermecanicoandroid.api.DireccionService
-com/example/tallermecanicoandroid/Interfaz.java
- com.example.tallermecanicoandroid.Interfaz
+com/example/tallermecanicoandroid/api/ServicioService.java
+ com.example.tallermecanicoandroid.api.ServicioService
 com/example/tallermecanicoandroid/BuildConfig.java
  com.example.tallermecanicoandroid.BuildConfig
 com/example/tallermecanicoandroid/model/Usuario.java
  com.example.tallermecanicoandroid.model.Usuario
-com/example/tallermecanicoandroid/ActivityServicio_detalle.java
- com.example.tallermecanicoandroid.ActivityServicio_detalle
+com/example/tallermecanicoandroid/api/ApiCliente.java
+ com.example.tallermecanicoandroid.api.ApiCliente
 com/example/tallermecanicoandroid/adapter/RecyclerViewAdapterServicio.java
  com.example.tallermecanicoandroid.adapter.RecyclerViewAdapterServicio
  com.example.tallermecanicoandroid.adapter.RecyclerViewAdapterServicio$1

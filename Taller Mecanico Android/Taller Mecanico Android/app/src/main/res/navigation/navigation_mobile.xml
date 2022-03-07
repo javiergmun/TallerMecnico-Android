@@ -15,6 +15,6 @@
         android:id="@+id/action_servicio_detalle_calendario"
         android:name="com.example.tallermecanicoandroid.Fragment_servicio"
         android:label="Servicio"
-        tools:layout="@layout/servicio_detalle_calendario" />
+        tools:layout="@layout/fragment_servicio_detalle" />
 
 </navigation>
