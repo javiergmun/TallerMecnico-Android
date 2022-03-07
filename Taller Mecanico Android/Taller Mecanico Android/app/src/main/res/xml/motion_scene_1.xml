@@ -38,9 +38,7 @@
             <Transform android:rotationY="-15" android:translationX="250dp"/>
         </Constraint>
 
-        <Constraint android:id="@+id/v3">
-            <Transform android:rotationY="-15" android:translationX="500dp"/>
-        </Constraint>
+
     </ConstraintSet>
     <ConstraintSet android:id="@+id/s2">
         <Constraint android:id="@+id/v1">
@@ -51,9 +49,7 @@
             <Transform android:rotationY="0" android:translationX="0dp"/>
         </Constraint>
 
-        <Constraint android:id="@+id/v3">
-            <Transform android:rotationY="-15" android:translationX="250dp"/>
-        </Constraint>
+
     </ConstraintSet>
     <ConstraintSet android:id="@+id/s3">
         <Constraint android:id="@+id/v1">
@@ -64,9 +60,7 @@
             <Transform android:rotationY="15" android:translationX="-250dp"/>
         </Constraint>
 
-        <Constraint android:id="@+id/v3">
-            <Transform android:rotationY="0" android:translationX="0dp"/>
-        </Constraint>
+
     </ConstraintSet>
 
 </MotionScene>

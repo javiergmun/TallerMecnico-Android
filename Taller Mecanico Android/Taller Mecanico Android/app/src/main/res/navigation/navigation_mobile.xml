@@ -3,30 +3,18 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navigation_mobile"
-    app:startDestination="@id/action_titulo">
+    app:startDestination="@id/action_servicios">
 
     <fragment
-        android:id="@+id/action_titulo"
-        android:name="edu.programacion.fotomapadrawer.TituloFragment"
-        android:label="Titulos"
-        tools:layout="@layout/fragment_titulo" />
+        android:id="@+id/action_servicios"
+        android:name="com.example.tallermecanicoandroid.Fragment_servicio"
+        android:label="Servicios"
+        tools:layout="@layout/fragment_servicios" />
 
     <fragment
-        android:id="@+id/action_etiqueta"
-        android:name="edu.programacion.fotomapadrawer.EtiquetaFragment"
+        android:id="@+id/action_servicio_detalle_calendario"
+        android:name="com.example.tallermecanicoandroid.Fragment_servicio"
+        android:label="Servicio"
+        tools:layout="@layout/servicio_detalle_calendario" />
 
-        android:label="Etiqueta"
-        tools:layout="@layout/fragment_etiqueta" />
-
-    <fragment
-        android:id="@+id/action_capturar"
-        android:name="edu.programacion.fotomapadrawer.CaptureFragment"
-        android:label="Capturar"
-        tools:layout="@layout/fragment_capture" />
-
-    <fragment
-        android:id="@+id/viewFragment"
-        android:name="edu.programacion.fotomapadrawer.ViewFragment"
-        android:label="ViewFragment"
-        tools:layout="@layout/fragment_view"/>
 </navigation>

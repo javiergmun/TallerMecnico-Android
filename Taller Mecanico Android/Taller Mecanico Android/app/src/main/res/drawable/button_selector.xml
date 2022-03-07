@@ -6,22 +6,22 @@
             <item android:left="30dp" android:top="11dp">
                 <shape>
                     <corners android:radius="17dp" />
-                    <solid android:color="#DCD7D7"/>
+                    <solid android:color="@color/rojoOscuro"/>
                 </shape>
 
             </item>
             <item android:right="30dp" android:bottom="11dp">
                 <shape>
                     <corners android:radius="17dp" />
-                    <solid android:color="#FFFFFF" />
+                    <solid android:color="@color/rojoOscuro" />
                 </shape>
 
             </item>
             <item android:bottom="2dp" android:left="2dp">
                 <shape>
                     <gradient android:angle="280"
-                        android:endColor="@color/Blanco_fondo" android:startColor="@color/Blanco_fondo" />
-                    <stroke android:width="20dp" android:color="@color/Blanco_fondo"
+                        android:endColor="@color/rojoOscuro" android:startColor="@color/rojoOscuro" />
+                    <stroke android:width="20dp" android:color="@color/rojoOscuro"
                         />
                     <corners android:radius="17dp" />
 

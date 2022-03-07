@@ -9,7 +9,8 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ApiCliente {
 
-    public  static  final String URL_001 = "http://localhost:8080";
+    //    public  static  final String URL_001 = "http://localhost:8080";  <----Usad esto si emulais en ordenador
+    public  static  final String URL_001 = "http://192.168.4.30:8080"; //<--- ip de mi ordenador
 
     public static Retrofit getCliente(){
 

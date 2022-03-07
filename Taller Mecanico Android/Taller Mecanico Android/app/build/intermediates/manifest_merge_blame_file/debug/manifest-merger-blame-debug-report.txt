@@ -1,0 +1,104 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.tallermecanicoandroid"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:26:5-66
+11-->C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:26:22-64
+12
+13    <application
+13-->C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:5:5-24:19
+14        android:allowBackup="true"
+14-->C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:6:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.7.0] C:\Users\neago\.gradle\caches\transforms-3\21249a56641fb0309777a5ae16ce99ff\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:8:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:9:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:10:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:11:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.TalleresJoseLuis.NoActionBar"
+22-->C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:12:9-66
+23        android:usesCleartextTraffic="true" >
+23-->C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:7:9-44
+24        <activity
+24-->C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:13:9-23:20
+25            android:name="com.example.tallermecanicoandroid.MainActivity"
+25-->C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:14:13-41
+26            android:exported="true"
+26-->C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:15:13-36
+27            android:label="@string/app_name"
+27-->C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:16:13-45
+28            android:theme="@style/Theme.TalleresJoseLuis.NoActionBar" >
+28-->C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:17:13-70
+29            <intent-filter>
+29-->C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:18:13-22:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:19:17-69
+30-->C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:19:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:21:17-77
+32-->C:\Users\neago\AndroidStudioProjects\TallerMecnico-Android\Taller Mecanico Android\Taller Mecanico Android\app\src\main\AndroidManifest.xml:21:27-74
+33            </intent-filter>
+34        </activity>
+35
+36        <service
+36-->[androidx.room:room-runtime:2.3.0] C:\Users\neago\.gradle\caches\transforms-3\8f0e7cceaf582441376ddf1e2d5825ba\transformed\room-runtime-2.3.0\AndroidManifest.xml:25:9-28:40
+37            android:name="androidx.room.MultiInstanceInvalidationService"
+37-->[androidx.room:room-runtime:2.3.0] C:\Users\neago\.gradle\caches\transforms-3\8f0e7cceaf582441376ddf1e2d5825ba\transformed\room-runtime-2.3.0\AndroidManifest.xml:26:13-74
+38            android:directBootAware="true"
+38-->[androidx.room:room-runtime:2.3.0] C:\Users\neago\.gradle\caches\transforms-3\8f0e7cceaf582441376ddf1e2d5825ba\transformed\room-runtime-2.3.0\AndroidManifest.xml:27:13-43
+39            android:exported="false" />
+39-->[androidx.room:room-runtime:2.3.0] C:\Users\neago\.gradle\caches\transforms-3\8f0e7cceaf582441376ddf1e2d5825ba\transformed\room-runtime-2.3.0\AndroidManifest.xml:28:13-37
+40
+41        <uses-library
+41-->[androidx.window:window:1.0.0] C:\Users\neago\.gradle\caches\transforms-3\09a5e9d7f702ea229ef09128ceac4045\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+42            android:name="androidx.window.extensions"
+42-->[androidx.window:window:1.0.0] C:\Users\neago\.gradle\caches\transforms-3\09a5e9d7f702ea229ef09128ceac4045\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+43            android:required="false" />
+43-->[androidx.window:window:1.0.0] C:\Users\neago\.gradle\caches\transforms-3\09a5e9d7f702ea229ef09128ceac4045\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+44        <uses-library
+44-->[androidx.window:window:1.0.0] C:\Users\neago\.gradle\caches\transforms-3\09a5e9d7f702ea229ef09128ceac4045\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+45            android:name="androidx.window.sidecar"
+45-->[androidx.window:window:1.0.0] C:\Users\neago\.gradle\caches\transforms-3\09a5e9d7f702ea229ef09128ceac4045\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+46            android:required="false" />
+46-->[androidx.window:window:1.0.0] C:\Users\neago\.gradle\caches\transforms-3\09a5e9d7f702ea229ef09128ceac4045\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+47
+48        <provider
+48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\neago\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+49            android:name="androidx.startup.InitializationProvider"
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\neago\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+50            android:authorities="com.example.tallermecanicoandroid.androidx-startup"
+50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\neago\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+51            android:exported="false" >
+51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\neago\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+52            <meta-data
+52-->[androidx.emoji2:emoji2:1.0.0] C:\Users\neago\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+53                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+53-->[androidx.emoji2:emoji2:1.0.0] C:\Users\neago\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+54                android:value="androidx.startup" />
+54-->[androidx.emoji2:emoji2:1.0.0] C:\Users\neago\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+55            <meta-data
+55-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\neago\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+56                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+56-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\neago\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+57                android:value="androidx.startup" />
+57-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\neago\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+58        </provider>
+59    </application>
+60
+61</manifest>

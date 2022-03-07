@@ -1,6 +1,8 @@
 package com.example.tallermecanicoandroid.model;
 
-public class Servicio {
+import java.io.Serializable;
+
+public class Servicio implements Serializable {
 
     private Long id;
     private Double precio;
@@ -9,6 +11,18 @@ public class Servicio {
     private String imagen;
     private String bitmap;
     private String descripcion;
+
+    public Servicio(Long id, Double precio, String tipo, Double tiempo, String imagen, String descripcion) {
+        this.id = id;
+        this.precio = precio;
+        this.tipo = tipo;
+        this.tiempo = tiempo;
+        this.imagen = imagen;
+        this.descripcion = descripcion;
+    }
+
+    public Servicio() {
+    }
 
 
     public Long getId() {

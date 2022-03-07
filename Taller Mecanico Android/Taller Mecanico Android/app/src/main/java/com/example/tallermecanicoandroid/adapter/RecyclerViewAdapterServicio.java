@@ -11,55 +11,64 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+import com.example.tallermecanicoandroid.R;
 import com.example.tallermecanicoandroid.model.Servicio;
 
 import java.util.List;
 
-public class RecyclerViewAdapterServicio {
-        //extends RecyclerView.Adapter<RecyclerViewAdapterServicio.ViewHolder>{
+public class RecyclerViewAdapterServicio extends RecyclerView.Adapter<RecyclerViewAdapterServicio.ViewHolder> {
 
 
     List<Servicio> servicioList;
     Context context;
+
+
 
     public RecyclerViewAdapterServicio(List<Servicio> servicioList, Context context) {
         this.servicioList = servicioList;
         this.context = context;
     }
 
-    //Poner en el inflate el xml del item (como se muestra)
-/*
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        //inicializar el view
+
         View view = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.item_elem,parent,false);
+                .inflate(R.layout.servicio_item, parent, false);
         return new ViewHolder(view);
     }
 
- */
-/*
+
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
 
         Servicio item = servicioList.get(position);
 
         //Poner el textview correspondiente con el atributo al que corresponda
-        holder.textViewPrecio.setText(item.getPrecio());
-        holder.textViewTipo.setText(item.getTipo());
-        holder.textViewtextViewTiempo.setText(item.getTiempo());
-        holder.textViewDescripcion.setText(item.getDescription());
+        holder.tituloServicio.setText(item.getTipo());
+        holder.descripcionServicio.setText(item.getDescripcion());
 
         //Para tratar la imagen con glide
         Glide.with(context)
-                .load(item.getImage())
+                .load(item.getImagen())
                 .into(holder.imageViewServicio);
+
+
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+
+                //AL HACER CLICK EN UN ITEM
+                //QUEREMOS QUE SALGA EL FRAGMENTO servicio detalle
+            }
+        });
+
+
+
 
     }
 
- */
-/*
     @Override
     public int getItemCount() {
         return servicioList.size();
@@ -67,22 +76,20 @@ public class RecyclerViewAdapterServicio {
 
     public class ViewHolder extends RecyclerView.ViewHolder {
 
-        TextView textViewPrecio, textViewTipo, textViewTiempo, textViewDescripcion;    //Poner los elementos del xml
+        TextView tituloServicio, descripcionServicio;
         ImageView imageViewServicio;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
 
-
-            textViewPrecio = itemView.findViewById(R.id.textView_precio);
-            textViewtextViewTipo = itemView.findViewById(R.id.textView_tipo);
-            textViewtextViewtextViewTiempo = itemView.findViewById(R.id.textView_tiempo);
-            textViewPrecioDescripcion = itemView.findViewById(R.id.textView_descripcion);
-            imageViewServicio = itemView.findViewById(R.id.imageView_servicio);
+            tituloServicio = itemView.findViewById(R.id.nombreServicio);
+            descripcionServicio = itemView.findViewById(R.id.descripcionServicio);
+            imageViewServicio = itemView.findViewById(R.id.imageView);
 
         }
+
     }
 
- */
+
 
 }

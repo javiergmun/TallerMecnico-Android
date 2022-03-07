@@ -1,3 +1,21 @@
+
 <resources>
-    <string name="app_name">TalleresJoseLuis</string>
+<string name="app_name">TalleresJoseLuis</string>
+<string name="navigation_drawer_open">Open navigation drawer</string>
+<string name="navigation_drawer_close">Close navigation drawer</string>
+<string name="nav_header_title">Android Studio</string>
+<string name="nav_header_subtitle">android.studio@android.com</string>
+<string name="nav_header_desc">Navigation header</string>
+<string name="action_settings">Ajustes</string>
+
+<string name="menu_home">Home</string>
+<string name="menu_search">Search</string>
+<string name="menu_slideshow">Limit</string>
+<!-- TODO: Remove or change this placeholder text -->
+<string name="hello_blank_fragment">Hello blank fragment</string>
+<string name="ordernar">Ordernar</string>
+    <string name="se_le_concertar_una_cita_para_el_servicio_servicio_para_el_fecha_a_las_hora">Se le concertará una cita para el servicio \'SERVICIO\' para el \'FECHA\' a las \'HORA\'</string>
+    <string name="confirmar_cita">¿Confirmar cita?</string>
+    <string name="ok">OK</string>
+    <string name="cancelar">Cancelar</string>
 </resources>

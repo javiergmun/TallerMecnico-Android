@@ -1,0 +1,63 @@
+com/example/tallermecanicoandroid/api/VehiculoService.java
+ com.example.tallermecanicoandroid.api.VehiculoService
+com/example/tallermecanicoandroid/Fragment_cita.java
+ com.example.tallermecanicoandroid.Fragment_cita
+com/example/tallermecanicoandroid/model/Direccion.java
+ com.example.tallermecanicoandroid.model.Direccion
+com/example/tallermecanicoandroid/model/Vehiculo.java
+ com.example.tallermecanicoandroid.model.Vehiculo
+com/example/tallermecanicoandroid/utiles/Utiles.java
+ com.example.tallermecanicoandroid.utiles.Utiles
+com/example/tallermecanicoandroid/model/UserRole.java
+ com.example.tallermecanicoandroid.model.UserRole
+com/example/tallermecanicoandroid/api/UsuarioService.java
+ com.example.tallermecanicoandroid.api.UsuarioService
+com/example/tallermecanicoandroid/api/LoginService.java
+ com.example.tallermecanicoandroid.api.LoginService
+com/example/tallermecanicoandroid/MainActivity.java
+ com.example.tallermecanicoandroid.MainActivity
+com/example/tallermecanicoandroid/adapter/DatoOnClickListener.java
+ com.example.tallermecanicoandroid.adapter.DatoOnClickListener
+com/example/tallermecanicoandroid/adapter/RecyclerViewAdapterVehiculo.java
+ com.example.tallermecanicoandroid.adapter.RecyclerViewAdapterVehiculo
+com/example/tallermecanicoandroid/CalendarActivity.java
+ com.example.tallermecanicoandroid.CalendarActivity
+com/example/tallermecanicoandroid/model/Servicio.java
+ com.example.tallermecanicoandroid.model.Servicio
+com/example/tallermecanicoandroid/api/ApiCliente.java
+ com.example.tallermecanicoandroid.api.ApiCliente
+com/example/tallermecanicoandroid/model/Login.java
+ com.example.tallermecanicoandroid.model.Login
+com/example/tallermecanicoandroid/api/MecanicoService.java
+ com.example.tallermecanicoandroid.api.MecanicoService
+com/example/tallermecanicoandroid/model/Mecanico.java
+ com.example.tallermecanicoandroid.model.Mecanico
+com/example/tallermecanicoandroid/ServicioItemClickListener.java
+ com.example.tallermecanicoandroid.ServicioItemClickListener
+com/example/tallermecanicoandroid/ActivityCommunications.java
+ com.example.tallermecanicoandroid.ActivityCommunications
+com/example/tallermecanicoandroid/api/CitaService.java
+ com.example.tallermecanicoandroid.api.CitaService
+com/example/tallermecanicoandroid/adapter/RecyclerViewAdapterCita.java
+ com.example.tallermecanicoandroid.adapter.RecyclerViewAdapterCita
+com/example/tallermecanicoandroid/model/Cita.java
+ com.example.tallermecanicoandroid.model.Cita
+com/example/tallermecanicoandroid/api/ServicioService.java
+ com.example.tallermecanicoandroid.api.ServicioService
+com/example/tallermecanicoandroid/api/DireccionService.java
+ com.example.tallermecanicoandroid.api.DireccionService
+com/example/tallermecanicoandroid/Interfaz.java
+ com.example.tallermecanicoandroid.Interfaz
+com/example/tallermecanicoandroid/BuildConfig.java
+ com.example.tallermecanicoandroid.BuildConfig
+com/example/tallermecanicoandroid/model/Usuario.java
+ com.example.tallermecanicoandroid.model.Usuario
+com/example/tallermecanicoandroid/ActivityServicio_detalle.java
+ com.example.tallermecanicoandroid.ActivityServicio_detalle
+com/example/tallermecanicoandroid/adapter/RecyclerViewAdapterServicio.java
+ com.example.tallermecanicoandroid.adapter.RecyclerViewAdapterServicio
+ com.example.tallermecanicoandroid.adapter.RecyclerViewAdapterServicio$1
+ com.example.tallermecanicoandroid.adapter.RecyclerViewAdapterServicio$ViewHolder
+com/example/tallermecanicoandroid/Fragment_servicio.java
+ com.example.tallermecanicoandroid.Fragment_servicio
+ com.example.tallermecanicoandroid.Fragment_servicio$1

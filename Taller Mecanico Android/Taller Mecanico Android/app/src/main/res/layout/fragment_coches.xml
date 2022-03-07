@@ -4,31 +4,37 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/Blanco_fondo"
-    android:padding="30dp"
-    >
+    android:background="@color/Blanco_fondo">
 
+    <TextView
+        android:id="@+id/tvEligeVehi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="184dp"
+        android:fontFamily="@font/poppins"
+        android:text="Elige un vehículo"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.00999999" />
 
-
-    <androidx.constraintlayout.motion.widget.MotionLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerCoches"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:id="@+id/motion_container"
-        app:layoutDescription="@xml/motion_scene_1">
-
-        <include layout="@layout/view"/>
-
-    </androidx.constraintlayout.motion.widget.MotionLayout>
-
-
+        android:layout_height="220dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvEligeVehi"
+        app:layout_constraintVertical_bias="0.04000002" />
 
 
 
-
-<TextView
+    <TextView
         android:id="@+id/tvIntroMarca"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -41,14 +47,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.11"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/motion_container"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@id/recyclerCoches"
+        app:layout_constraintVertical_bias="0.060000002" />
 
     <EditText
         android:id="@+id/marca"
         android:layout_width="312dp"
         android:layout_height="48dp"
-        android:background="@drawable/et_style"
         android:backgroundTint="@color/white"
         android:textAlignment="center"
         android:textColor="@color/Blanco_fondo"
@@ -59,7 +64,7 @@
         app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvIntroMarca"
-        app:layout_constraintVertical_bias="0.01999998"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="SpeakableTextPresentCheck" />
 
 
@@ -82,7 +87,6 @@
         android:id="@+id/matricula"
         android:layout_width="312dp"
         android:layout_height="48dp"
-        android:background="@drawable/et_style"
         android:backgroundTint="@color/white"
         android:textAlignment="center"
         android:textColor="@color/Blanco_fondo"
@@ -116,7 +120,6 @@
         android:id="@+id/descripcion"
         android:layout_width="312dp"
         android:layout_height="48dp"
-        android:background="@drawable/et_style"
         android:backgroundTint="@color/white"
         android:textAlignment="center"
         android:textColor="@color/Blanco_fondo"
@@ -130,6 +133,42 @@
         app:layout_constraintVertical_bias="0.01999998"
         tools:ignore="SpeakableTextPresentCheck" />
 
+    <Button
+        android:id="@+id/addImagen"
+        android:layout_width="131dp"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/Rojo"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:hint="AÑADIR IMAGEN"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/descripcion"
+        app:layout_constraintVertical_bias="0.202" />
+
+
+    <Button
+        android:id="@+id/registrar"
+        android:layout_width="131dp"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/Rojo"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:hint="REGISTRAR"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.82"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/descripcion"
+        app:layout_constraintVertical_bias="0.196" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
