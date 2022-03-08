@@ -8,74 +8,87 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+import com.example.tallermecanicoandroid.Fragment_servicio_detalle;
 import com.example.tallermecanicoandroid.R;
 import com.example.tallermecanicoandroid.model.Cita;
+import com.example.tallermecanicoandroid.model.Servicio;
 
 import java.util.List;
 
-public class RecyclerViewAdapterCita {
-        /*
-        extends RecyclerView.Adapter<RecyclerViewAdapterCita.ViewHolder>{
+
+public class RecyclerViewAdapterCita extends RecyclerView.Adapter<RecyclerViewAdapterCita.ViewHolder> {
 
 
-    List<Cita> citaList;
+    List<Cita> servicioList;
     Context context;
 
-    public RecyclerViewAdapterCita(List<Cita> citaList, Context context) {
-        this.citaList = citaList;
+
+
+    public RecyclerViewAdapterCita(List<Cita> servicioList, Context context) {
+        this.servicioList = servicioList;
         this.context = context;
     }
 
-    //Poner en el inflate el xml del item (como se muestra)
-
     @NonNull
     @Override
-    public RecyclerViewAdapterCita.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        //inicializar el view con la lista de elementos
+    public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+
         View view = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.item_elem,parent,false);
-        return new RecyclerViewAdapterCita.ViewHolder(view);
+                .inflate(R.layout.cita_item, parent, false);
+        return new ViewHolder(view);
     }
 
 
     @Override
-    public void onBindViewHolder(@NonNull RecyclerViewAdapterCita.ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
 
-        Cita item = citaList.get(position);
+        Cita item = servicioList.get(position);
 
         //Poner el textview correspondiente con el atributo al que corresponda
-        holder.textViewFecha.setText(item.getFecha().toString());
-        holder.textViewUsuario.setText(item.getUsuario().getUsername());
-        holder.textViewMecanico.setText(item.getMecanico().getNombre());
-        holder.textViewServicio.setText(item.getServicio().getTipo());
+        holder.mecanico.setText(item.getMecanico().getNombre());
+        holder.hora.setText(item.getFecha().toString());
+
+        /*
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                AppCompatActivity activity = (AppCompatActivity)view.getContext();
+                Fragment_servicio_detalle demoFragment = new Fragment_servicio_detalle(item, context);
+                activity.getSupportFragmentManager().beginTransaction().replace(R.id.rec, demoFragment).addToBackStack(null).commit();
+
+
+            }
+        });
+
+
+         */
+
 
     }
-
 
     @Override
     public int getItemCount() {
-        return citaList.size();
+        return servicioList.size();
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
 
-        TextView textViewFecha,textViewUsuario,textViewMecanico, textViewServicio;    //Poner los elementos del xml
+        TextView mecanico, hora;
 
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
 
-
-            textViewFecha = itemView.findViewById(R.id.textView_dni);
-            textViewUsuario = itemView.findViewById(R.id.textView_username);
-            textViewMecanico = itemView.findViewById(R.id.textView_mecanico);
-            textViewServicio = itemView.findViewById(R.id.textView_telefono);
+            mecanico = itemView.findViewById(R.id.nombreMecanico);
+            hora = itemView.findViewById(R.id.horaDisponible);
 
         }
+
     }
 
-         */
 }

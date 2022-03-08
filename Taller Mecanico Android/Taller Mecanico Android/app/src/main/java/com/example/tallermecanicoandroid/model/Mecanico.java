@@ -3,6 +3,11 @@ package com.example.tallermecanicoandroid.model;
 public class Mecanico {
 
     private long id;
+
+    public Mecanico(String nombre) {
+        this.nombre = nombre;
+    }
+
     private String nombre;
     private Double salario;
 

@@ -10,11 +10,18 @@
         android:name="com.example.tallermecanicoandroid.Fragment_servicio"
         android:label="Servicios"
         tools:layout="@layout/fragment_servicios" />
+    <fragment
+        android:id="@+id/action_servi_detalle"
+        android:name="com.example.tallermecanicoandroid.Fragment_servicio_detalle"
+        android:label="Servicios"
+        tools:layout="@layout/fragment_servicio_detalle" />
 
     <fragment
-        android:id="@+id/action_servicio_detalle_calendario"
-        android:name="com.example.tallermecanicoandroid.Fragment_servicio"
-        android:label="Servicio"
-        tools:layout="@layout/fragment_servicio_detalle" />
+        android:id="@+id/action_citas"
+        android:name="com.example.tallermecanicoandroid.Fragment_cita"
+        android:label="Citas"
+        tools:layout="@layout/fragment_citas" />
+
+
 
 </navigation>

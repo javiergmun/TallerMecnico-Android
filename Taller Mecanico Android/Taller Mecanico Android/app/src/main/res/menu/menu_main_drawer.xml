@@ -7,28 +7,16 @@
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
+            android:title="Inicio" />
         <item
             android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_search" />
+            android:icon="?attr/actionModePasteDrawable"
+            android:title="Mis citas" />
         <item
             android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:icon="@drawable/icono_fav"
+            android:title="Perfil" />
 
-        <item
-            android:id="@+id/nav_ordenar"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/ordernar" />
 
-        <item
-            android:id="@+id/nav_categories"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="categories" />
-        <item
-            android:id="@+id/nav_crud"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Crud" />
     </group>
 </menu>

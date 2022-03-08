@@ -3,11 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fragment_cita">
+    tools:context=".Fragment_cita"
+    android:id="@+id/recCitas">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerServicios"
+        android:id="@+id/recyclerCitas"
         android:layout_width="match_parent"
+        android:backgroundTint="@color/Gris"
         android:layout_height="match_parent"
         android:background="@color/white"/>
 </FrameLayout>

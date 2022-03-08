@@ -10,14 +10,18 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.example.tallermecanicoandroid.ActivityCommunications;
+import com.example.tallermecanicoandroid.Fragment_servicio_detalle;
 import com.example.tallermecanicoandroid.R;
 import com.example.tallermecanicoandroid.model.Servicio;
 
 import java.util.List;
+
 
 public class RecyclerViewAdapterServicio extends RecyclerView.Adapter<RecyclerViewAdapterServicio.ViewHolder> {
 
@@ -61,9 +65,11 @@ public class RecyclerViewAdapterServicio extends RecyclerView.Adapter<RecyclerVi
             @Override
             public void onClick(View view) {
 
+                AppCompatActivity activity = (AppCompatActivity)view.getContext();
+                Fragment_servicio_detalle demoFragment = new Fragment_servicio_detalle(item, context);
+                activity.getSupportFragmentManager().beginTransaction().replace(R.id.rec, demoFragment).addToBackStack(null).commit();
 
-                //AL HACER CLICK EN UN ITEM
-                //QUEREMOS QUE SALGA EL FRAGMENTO servicio detalle
+
             }
         });
 

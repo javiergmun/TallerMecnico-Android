@@ -10,6 +10,15 @@ public class Cita {
     private Mecanico mecanico;
     private Servicio servicio;
 
+    public Cita(long id, LocalDateTime fecha, Mecanico mecanico) {
+        this.id = id;
+        this.fecha = fecha;
+        this.mecanico = mecanico;
+    }
+
+    public Cita() {
+    }
+
 
     public long getId() {
         return id;

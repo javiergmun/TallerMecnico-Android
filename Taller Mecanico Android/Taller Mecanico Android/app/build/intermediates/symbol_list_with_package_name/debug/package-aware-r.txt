@@ -2653,6 +2653,7 @@ id action_bar_root
 id action_bar_spinner
 id action_bar_subtitle
 id action_bar_title
+id action_citas
 id action_container
 id action_context_bar
 id action_divider
@@ -2662,7 +2663,7 @@ id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
-id action_servicio_detalle_calendario
+id action_servi_detalle
 id action_servicios
 id action_settings
 id action_text
@@ -2700,6 +2701,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id buttonOkCita
 id buttonPanel
 id cache_measures
 id calendario
@@ -2732,6 +2734,7 @@ id closest
 id collapseActionView
 id compress
 id confirm_button
+id const_detalleServicio
 id constraint
 id container
 id content
@@ -2797,7 +2800,6 @@ id entrar
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
-id fab
 id fade
 id fill
 id fill_horizontal
@@ -2926,14 +2928,11 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
-id nav_categories
 id nav_controller_view_tag
-id nav_crud
 id nav_gallery
 id nav_home
 id nav_host_fragment_container
 id nav_host_fragment_content_main
-id nav_ordenar
 id nav_slideshow
 id nav_view
 id navigation_bar_item_active_indicator_view
@@ -2950,6 +2949,7 @@ id neverCompleteToStart
 id noScroll
 id noState
 id nombre
+id nombreCabecera
 id nombreMecanico
 id nombreServicio
 id none
@@ -2982,7 +2982,10 @@ id progress_circular
 id progress_horizontal
 id radio
 id ratio
+id rec
+id recCitas
 id rectangles
+id recyclerCitas
 id recyclerCoches
 id recyclerServicios
 id registrar
@@ -3091,7 +3094,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textView
+id textView2
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon

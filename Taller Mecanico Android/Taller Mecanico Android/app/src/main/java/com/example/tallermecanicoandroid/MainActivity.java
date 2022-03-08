@@ -15,9 +15,12 @@ import com.example.tallermecanicoandroid.model.Servicio;
 import com.google.android.material.navigation.NavigationView;
 
 
-public class MainActivity extends AppCompatActivity implements ActivityCommunications {
+public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
+    private Servicio mTemporal;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,13 +59,6 @@ public class MainActivity extends AppCompatActivity implements ActivityCommunica
     }
 
 
-    @Override
-    public void onServiciolistItemSelected(Servicio servicio) {
-        Bundle args = new Bundle();
-        args.putString("SERVICIO", servicio.getTipo());
 
-        //navegamos al fragmento indicado con los datos del args
-        Navigation.findNavController(this, R.id.nav_host_fragment_content_main)
-                .navigate(R.id.action_servicio_detalle_calendario, args);
-    }
+
 }

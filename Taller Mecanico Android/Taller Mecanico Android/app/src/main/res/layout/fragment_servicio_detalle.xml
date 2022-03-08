@@ -4,164 +4,167 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/Blanco_fondo">
+    android:background="@color/Blanco_fondo"
+    android:id="@+id/const_detalleServicio">
 
 
-    <ImageView
-        android:id="@+id/imageServicio"
-        android:layout_width="680dp"
-        android:layout_height="287dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@drawable/motor" />
+        <ImageView
+            android:id="@+id/imageServicio"
+            android:layout_width="970dp"
+            android:layout_height="253dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@drawable/motor" />
 
-    <TextView
-        android:id="@+id/lblNombreServicio"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="65dp"
-        android:layout_marginEnd="184dp"
-        android:fontFamily="@font/poppins"
-        android:text="Cambio de aceite"
-        android:textColor="@color/rojoOscuro"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageServicio"
-        app:layout_constraintVertical_bias="0.06999999" />
+        <TextView
+            android:id="@+id/lblNombreServicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:text="Cambio de aceite"
+            android:textColor="@color/rojoOscuro"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.18"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageServicio"
+            app:layout_constraintVertical_bias="0.01999998" />
 
-    <ImageView
-        android:id="@+id/star1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="65dp"
-        android:layout_marginTop="15dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lblNombreServicio"
-        app:srcCompat="@android:drawable/btn_star"
-        android:tint="@color/rojoOscuro"
-        tools:ignore="UseAppTint" />
+        <ImageView
+            android:id="@+id/star1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="5dp"
+            android:tint="@color/rojoOscuro"
+            app:layout_constraintEnd_toStartOf="@+id/star2"
+            app:layout_constraintHorizontal_bias="0.13"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lblNombreServicio"
+            app:srcCompat="@android:drawable/btn_star"
+            tools:ignore="UseAppTint" />
 
-    <ImageView
-        android:id="@+id/star2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="15dp"
-        app:layout_constraintStart_toEndOf="@+id/star1"
-        app:layout_constraintTop_toBottomOf="@+id/lblNombreServicio"
-        app:srcCompat="@android:drawable/btn_star"
-        android:tint="@color/rojoOscuro"
-        tools:ignore="UseAppTint"/>
-
-
-
-    <ImageView
-        android:id="@+id/star3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="15dp"
-        app:layout_constraintStart_toEndOf="@+id/star2"
-        app:layout_constraintTop_toBottomOf="@+id/lblNombreServicio"
-        app:srcCompat="@android:drawable/btn_star"
-        android:tint="@color/rojoOscuro"
-        tools:ignore="UseAppTint"/>
+        <ImageView
+            android:id="@+id/star2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="15dp"
+            android:tint="@color/rojoOscuro"
+            app:layout_constraintStart_toEndOf="@+id/star1"
+            app:layout_constraintTop_toBottomOf="@+id/lblNombreServicio"
+            app:srcCompat="@android:drawable/btn_star"
+            tools:ignore="UseAppTint" />
 
 
-    <ImageView
-        android:id="@+id/star4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="15dp"
-        app:layout_constraintStart_toEndOf="@+id/star3"
-        app:layout_constraintTop_toBottomOf="@+id/lblNombreServicio"
-        app:srcCompat="@android:drawable/btn_star"
-        android:tint="@color/rojoOscuro"
-        tools:ignore="UseAppTint"/>
+        <ImageView
+            android:id="@+id/star3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="15dp"
+            android:tint="@color/rojoOscuro"
+            app:layout_constraintStart_toEndOf="@+id/star2"
+            app:layout_constraintTop_toBottomOf="@+id/lblNombreServicio"
+            app:srcCompat="@android:drawable/btn_star"
+            tools:ignore="UseAppTint" />
 
 
+        <ImageView
+            android:id="@+id/star4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="15dp"
+            android:tint="@color/rojoOscuro"
+            app:layout_constraintStart_toEndOf="@+id/star3"
+            app:layout_constraintTop_toBottomOf="@+id/lblNombreServicio"
+            app:srcCompat="@android:drawable/btn_star"
+            tools:ignore="UseAppTint" />
 
 
-    <ImageView
-        android:id="@+id/star5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="15dp"
-        app:layout_constraintStart_toEndOf="@+id/star4"
-        app:layout_constraintTop_toBottomOf="@+id/lblNombreServicio"
-        app:srcCompat="@android:drawable/btn_star"
-       />
+        <ImageView
+            android:id="@+id/star5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="15dp"
+            app:layout_constraintStart_toEndOf="@+id/star4"
+            app:layout_constraintTop_toBottomOf="@+id/lblNombreServicio"
+            app:srcCompat="@android:drawable/btn_star" />
 
 
+        <TextView
+            android:id="@+id/lblPrecio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="20,51€"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/star2" />
 
 
-    <TextView
-        android:id="@+id/lblPrecio"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="65dp"
-        android:layout_marginTop="15dp"
-        android:text="20,51€"
-        android:textSize="20dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/star2" />
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/rojoOscuro"
+            android:backgroundTint="@color/rojoOscuro"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lblPrecio"
+            app:layout_constraintVertical_bias="0.0" />
 
-
-    <View
-        android:id="@+id/divider"
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/rojoOscuro"
-        android:backgroundTint="@color/rojoOscuro"
-        app:layout_constraintBottom_toTopOf="@+id/tvDescripcionServicio"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lblPrecio"
-        app:layout_constraintVertical_bias="0.13999999" />
 
     <TextView
         android:id="@+id/tvDescripcionServicio"
-        android:layout_width="300dp"
-        android:layout_height="100dp"
+        android:layout_width="364dp"
+        android:layout_height="60dp"
         android:layout_marginStart="65dp"
         android:layout_marginEnd="102dp"
         android:text="Tenemos varias marcas de aceite para coche en stock en todos nuestros talleres mecánicos todos ellos con una garantía de 2 años."
+        android:textColor="@color/black"
         android:textSize="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.369"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lblPrecio"
-        app:layout_constraintVertical_bias="0.07999998" />
+        app:layout_constraintVertical_bias="0.026" />
 
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:background="@color/white"
-        android:orientation="vertical"
+    <CalendarView
+        android:id="@+id/calendario"
+        android:layout_width="313dp"
+        android:layout_height="213dp"
+        android:background="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tvDescripcionServicio"
-        app:layout_constraintVertical_bias="0.060000002"
-        tools:context=".CalendarActivity"
-        tools:ignore="MissingConstraints"
-        tools:visibility="visible">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDescripcionServicio"
+        app:layout_constraintVertical_bias="0.105">
 
-        <CalendarView
-            android:id="@+id/calendario"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+    </CalendarView>
 
-        </CalendarView>
-
-    </LinearLayout>
-
-
-
+    <Button
+        android:id="@+id/buttonOkCita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/rojoOscuro"
+        android:text="Elegir cita"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.91"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageServicio"
+        app:layout_constraintVertical_bias="0.13999999" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
